@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.um {
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    background-color: #90AE6E;
+}
+
+.dois {
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.descricao_save {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.descricao_ajuda {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 100px;
+    width: 50%;
+    text-align: center;
+}
+
+.descricao {
+    font-size: 45px;
+    line-height: 3;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/fundo.perguntas.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 4rem;
+}
+
+.teste {
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quadrado {
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    font-size: 30px;
+}
+
+.quadrado_segundo {
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    font-size: 30px;
+}
+
+.links-pages {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_1 {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.img_2 {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}

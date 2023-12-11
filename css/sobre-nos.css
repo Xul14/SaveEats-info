@@ -1,0 +1,39 @@
+.sobre-nos {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 250px 1fr;
+}
+
+.sobre-title {
+    display: flex;
+    color: #1B470F;
+    font-size: 70px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 100px;
+
+}
+
+.sobre-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.desc_sobre {
+    z-index: 2;
+    padding: 50px;
+    font-size: 45px;
+    color: #3F3F3F;
+    text-align: center;
+    align-items: center;
+}
+
+.img_panela{
+    position: absolute;
+    height: 1500px;
+    width: 1300px;
+    right: 0%;
+    top: 200%;
+}

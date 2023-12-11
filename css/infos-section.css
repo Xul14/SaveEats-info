@@ -1,0 +1,133 @@
+.infos-section {
+    display: grid;
+    grid-template-areas: "title" "linha1" "linha2";
+    grid-template-rows: 250px 1fr 1fr;
+    width: 100%;
+    color: #000;
+    background-color: #90AE6E;
+}
+
+.title {
+    grid-area: title;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    font-size: 70px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    display: grid;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.subtitle-infos-section {
+    color: #1B470F;
+}
+
+.linha1 {
+    display: grid;
+    grid-area: linha1;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img_globo {
+    width: 150px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+
+.desc_globo {
+    color: aliceblue;
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img_money {
+    width: 150px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+.desc_money {
+    color: aliceblue;
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img_comida {
+    width: 150px;
+    padding-bottom: 20px;
+    height: 150px;
+}
+
+.desc_comida {
+    color: aliceblue;
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.linha2 {
+    display: grid;
+    grid-area: linha2;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img_rosto {
+    width: 150px;
+    padding-bottom: 20px;
+    height: 150px;
+}
+
+.desc_rosto {
+    color: aliceblue;
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img_planta {
+    width: 150px;
+    padding-bottom: 20px;
+    height: 150px;
+}
+
+.desc_planta {
+    color: aliceblue;
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img_familia {
+    width: 150px;
+    padding-bottom: 20px;
+    height: 150px;
+}
+
+.desc_familia {
+    color: aliceblue;
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.item-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-template-rows: 3fr 3fr;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    padding-left: 7rem;
+    background-color: #90AE6E;
+}
+
+.barra2 {
+    display: flex;
+    align-items: center;
+    padding-left: 7rem;
+}
+
+.descricao_save {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.descricao_ajuda {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.barrinha {
+    background-color: black;
+    height: 1%;
+    width: 2%;
+    transform: rotate(90deg);
+}
+
+.descricao_restaurante {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #90AE6E;
+    color: #ffff;
+    border-radius: 18px;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.linha {
+    background-color: black;
+    height: .1%;
+    width: 100%;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    grid-template-areas: "left right";
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+.left {
+    grid-area: left;
+    width: 100%;
+    height: 100%;
+}
+
+.title-faq-restaurante{
+    font-size: 3rem;
+    color: #000;
+    display: flex;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.container-perguntas{
+    gap: 2rem;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.pergunta-div{
+    display: grid;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 100px 1fr 100px;
+    border-bottom: 1px #000 solid;
+}
+
+.pergunta-div i{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pergunta{
+    font-size: 1.75rem;
+}
+
+.right {
+    grid-area: right;
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-central {
+    width: 30rem;
+    display: flex;
+}

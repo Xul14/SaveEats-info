@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    grid-area: content;
+    z-index: 1;
+    place-self: start center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5rem;
+    background-color: #90AE6E;
+}
+
+.back {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    right: 32px;
+    bottom: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    opacity: .3;
+    transition: opacity .5s;
+    border: 3px solid #c17e0b;
+    background-color: #FE9112;
+    font-size: 2rem;
+}
+
+.back:hover {
+    opacity: 1;
+}
+
+main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 1fr 100px;
+    background-color: #90AE6E;
+}
+
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 50px;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contato-item i {
+    font-size: 2.5rem;
+}
+
+.contato-item{
+font-size: 2rem;
+}
+
+.logo-footer {
+    height: 250px;
+}
+
+.copyright {
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-top: #FFF solid 1px;
+}

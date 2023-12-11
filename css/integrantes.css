@@ -1,0 +1,148 @@
+.integrantes {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "title-integrantes" "foto-integrantes";
+    grid-template-rows: 350px 1fr;
+}
+
+.title-integrantes{
+    grid-area: title-integrantes;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    color: #0A2503;
+    text-align: center;
+    justify-content: center;
+}
+
+.title-integrantes p{
+    padding-top: 5%;
+    width: 75%;
+}
+
+.foto-integrantes{
+    grid-area: foto-integrantes;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 50px;
+}
+
+.carol{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+}
+
+.circle_carol{
+    background: #90AE6E;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(111, 112, 111), 
+            -5px 0 rgb(177, 178, 177);
+    
+}
+.desc_carol{
+    font-size: 40px;
+    font-weight: bold;
+}
+.desc_f2{
+    font-size: 40px;
+}
+
+.dwovanna{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+}
+
+.circle_dwovanna{
+    background: #90AE6E;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(111, 112, 111), 
+            -5px 0 rgb(177, 178, 177);
+}
+.desc_dwovanna{
+    font-size: 40px;
+    font-weight: bold;
+}
+.desc_f3{
+    font-size: 40px;
+}
+
+.julia{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+}
+
+.circle_julia{
+    background: #90AE6E;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(111, 112, 111), 
+            -5px 0 rgb(177, 178, 177);
+}
+.desc_julia{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.desc_f1{
+    font-size: 40px;
+}
+
+.oswaldo{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+}
+
+.circle_oswaldo{
+    background: #90AE6E;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(111, 112, 111), 
+            -5px 0 rgb(177, 178, 177);
+}
+.desc_oswaldo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.desc_f5{
+    font-size: 40px;
+}
+
+.vini{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+}
+
+.circle_vinicius{
+    background: #90AE6E;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(111, 112, 111), 
+            -5px 0 rgb(177, 178, 177);
+}
+
+.desc_vinicius{   
+    font-size: 40px;
+    font-weight: bold;
+}
+.desc_f4{
+    font-size: 40px;
+}

@@ -1,0 +1,267 @@
+/* TABLET */
+
+@media(max-width:960px) {
+    header {
+        max-width: 672px;
+    }
+    .back {
+        right: 20px;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    .menu li {
+        display: none;
+    }
+    .menu-lista {
+        display: flex;
+        font-size: 2rem;
+        color: white;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home_text {
+        font-size: 2rem;
+    }
+    .home_name {
+        font-size: 2.5rem;
+    }
+    .section-title {
+        font-size: 10rem;
+    }
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .sobre-mim {
+        grid-template-areas: "title title""description description""skills skills";
+        height: auto;
+    }
+    .section-title {
+        font-size: 10rem;
+    }
+    .description {
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .description__title {
+        align-self: center;
+        font-size: 3.5rem;
+        padding-top: 30px;
+    }
+    .description__text {
+        padding: 30px;
+        display: flex;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0%;
+    }
+    .skills__title {
+        align-self: center;
+        font-size: 3.5rem;
+    }
+    .skills__icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        place-content: center;
+        padding: 17%;
+        padding-top: 20px;
+    }
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0px;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 400px;
+    }
+    .contato {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 0%;
+    }
+    .contato-container {
+        font-size: 1rem;
+    }
+    .contato-title {
+        font-size: 2rem;
+    }
+    .contato-item {
+        font-size: 1.5rem;
+    }
+    .social-container {
+        font-size: 1.5rem;
+        padding: 30px;
+    }
+    .link-container {
+        height: 35%;
+        gap: 15px;
+        padding: 0%;
+        font-size: 1.5rem;
+    }
+    .link-title {
+        font-size: 2rem;
+    }
+    .footer {
+        font-size: 30px;
+        height: 50px;
+    }
+}
+
+
+/* MOBILE */
+
+@media(max-width:640px) {
+    header {
+        max-width: 550px;
+    }
+    .logo {
+        font-size: 1.25rem;
+        padding-left: 25px;
+    }
+    .menu li {
+        display: none;
+    }
+    .menu-lista {
+        display: flex;
+        font-size: 1.25rem;
+        color: white;
+        padding-right: 25px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home_text {
+        font-size: 1rem;
+    }
+    .home_name {
+        font-size: 1.2rem;
+    }
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .section-title {
+        font-size: 7rem;
+    }
+    .sobre-mim {
+        grid-template-areas: "title title" "description description" "skills skills";
+        height: auto;
+    }
+    .section-title {
+        font-size: 4rem;
+    }
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description__title {
+        align-self: center;
+        font-size: 2.5rem;
+        padding-top: 100px;
+    }
+    .description__text {
+        padding: 30px;
+        display: flex;
+        font-size: 1.25rem;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .skills__title {
+        align-self: center;
+        font-size: 2.5rem;
+    }
+    .skills__icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        place-content: center;
+        padding: 17%;
+        padding-top: 20px;
+        gap: 30px;
+    }
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        height: 160vh;
+        padding: 0%;
+        height: auto;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 170px;
+    }
+    .contato {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 0%;
+        gap: 25px;
+    }
+    .contato-container {
+        font-size: 1rem;
+    }
+    .contato-title {
+        font-size: 1.5rem;
+    }
+    .contato-item {
+        font-size: 1rem;
+    }
+    .social-container {
+        font-size: 1.5rem;
+        padding: 30px;
+    }
+    .social-item {
+        width: 50px;
+        height: 50px;
+    }
+    .link-container {
+        height: 35%;
+        gap: 15px;
+        padding: 0%;
+        font-size: 1rem;
+    }
+    .link-title {
+        font-size: 1.5rem;
+    }
+    .footer {
+        font-size: 25px;
+    }
+}

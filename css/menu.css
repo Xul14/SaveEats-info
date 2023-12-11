@@ -1,0 +1,24 @@
+.logo {
+    display: flex;
+    padding-top: 30px;
+}
+
+.menu {
+    gap: 72px;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.menu li:hover {
+    border-bottom: 4px solid #FFF;
+}
+
+.menu-lista {
+    display: none;
+}
